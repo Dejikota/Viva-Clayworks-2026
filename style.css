@@ -1,0 +1,449 @@
+
+/* GLOBAL STYLES */
+
+
+/* COLOURS */
+
+/*
+#F6F0E7;  Cream
+#E4DCCC;  Off-White
+#56513A;  Olive
+#BBB8A8;  Sage Grey
+#3A2F29;  Dark Brown
+*/
+
+
+/* BACKGROUND COLOURS */
+
+.background-cream {
+    background-color: #E4DCCC; /* Off–White */
+}
+
+
+
+/* TYPE STYLES */
+
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #3A2F29; /* Dark Brown */
+    font-size: 70px;
+    line-height: 109px;
+    letter-spacing: -5px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #3A2F29; /* Dark Brown */
+    font-size: 28px;
+    line-height: 109px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #3A2F29; /* Dark Brown */
+    font-size: 32px;
+    line-height: 109px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: #3A2F29; /* Dark Brown */
+    font-size: 16px;
+    line-height: 148px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+
+/* LOGO */
+
+.logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #3A2F29; /* Dark Brown */
+    text-decoration: none;
+    display: block;
+}
+
+
+
+/* ------------------- */
+/* --- NAVIGATION ---- */
+/* ------------------- */
+
+
+/* NAVIGATION SPACING */
+
+nav {
+    padding: 24px 0px;
+}
+
+
+/* NAVIGATION MENU */
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    left: 95px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-menu li {
+    margin: 0px 12px;
+}
+
+
+/* NAVIGATION + FOOTER LINKS */
+
+.nav-menu a,
+.footer-menu a {
+    color: #3A2F29; /* Dark Brown */
+    text-decoration: none;
+}
+
+
+/* NAVIGATION BUTTON */
+
+.nav-button {
+    text-align: right;
+}
+
+
+/* BUTTON & LINK STYLES */
+
+.button {
+    background-color: #56513A; /* Olive */
+    padding: 10px 20px;
+    border-radius: 360px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #E4DCCC; /* Off–White */
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* HERO BUTTON */
+
+.hero-circle .button {
+    padding: 16px 30px;
+    font-size: 16px;
+}
+
+
+/* ------------------- */
+/* ------- HOME ------ */
+/* ------------------- */
+
+
+/* HERO SECTION */
+
+.hero-section {
+    background-image: url("images/home-hero.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 124px 0px;
+}
+
+
+
+
+/* HERO CIRCLE */
+
+.hero-circle {
+    background-color: #E4DCCC; /* Off–White */
+    width: 540px;
+    height: 540px;
+    border-radius: 360px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+
+/* HERO TITLE */
+
+.hero-circle h1 {
+    font-size: 56px;
+    line-height: 110%;
+    letter-spacing: -2px;
+    margin: 0px 0px 48px 0px;
+}
+
+
+
+
+/* HERO SUBTITLE */
+
+.hero-circle h2 {
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    margin: 0px 0px 48px 0px;
+}
+
+
+
+/* INTRODUCTION DESCRIPTION */
+
+.home-intro {
+    padding: 100px 0px;
+}
+
+.home-intro p {
+    max-width: 520px;
+    line-height: 148%;
+    margin: 0px;
+}
+
+
+/* INTRODUCTION TITLE */
+
+.home-intro h2 {
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -2px;
+    margin: 0px 0px 28px 0px;
+}
+
+
+/* SERVICE DESCRIPTIONS */
+
+.home-services p {
+    font-size: 16px;
+    line-height: 148%;
+    max-width: 340px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+/* SERVICES ROW */
+
+.home-services {
+    margin-top: 80px;
+}
+
+
+/* SERVICE CARDS */
+
+.service-card {
+    width: 85%;
+}
+
+
+/* SERVICE CARD ALIGNMENT */
+
+.service-left {
+    margin: 0px auto 0px 0px;
+}
+
+.service-center {
+    margin: 0px auto;
+}
+
+.service-right {
+    margin: 0px 0px 0px auto;
+}
+
+
+/* SERVICE IMAGES */
+
+.service-image {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+
+/* SERVICE TITLES */
+
+.home-services h3 {
+    font-size: 28px;
+    line-height: 120%;
+    margin: 20px 0px 12px 0px;
+}
+
+
+/* SERVICE DESCRIPTIONS */
+
+.home-services p {
+    font-size: 16px;
+    line-height: 148%;
+    margin: 0px 0px 20px 0px;
+}
+
+
+/* SERVICE LINKS */
+
+.service-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3A2F29; /* Dark Brown */
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* ------------------- */
+/* ----- CONTACT ----- */
+/* ------------------- */
+
+
+
+
+
+/* ------------------- */
+/* ------ FIRING ----- */
+/* ------------------- */
+
+
+
+
+
+/* ------------------- */
+/* ------ FOOTER ----- */
+/* ------------------- */
+
+
+/* FOOTER SPACING */
+
+footer {
+    padding: 38px 0px 30px 0px;
+}
+
+
+/* LOGO + DESCRIPTION */
+
+footer .logo {
+    line-height: 120%;
+    margin: 0px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 140%;
+    margin: 20px 0px 0px 0px;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* FOOTER NAVIGATION */
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-left: 1px solid #56513A; /* Olive */
+    border-right: 1px solid #56513A; /* Olive */
+    height: 170px;
+    margin: 0px 30px; 
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-menu li {
+    margin-bottom: 18px;
+}
+
+
+/* FOOTER CONTACT */
+
+.footer-contact-column {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+}
+
+.footer-contact {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-contact-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-contact-row p {
+    margin: 0px;
+}
+
+.footer-contact-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* FOOTER SOCIAL MEDIA */
+
+.footer-social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.footer-social-icon {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+
+
+/* ------------------- */
+/* ------ MOBILE ----- */
+/* ------------------- */
+
+@media screen and (max-width: 478px) {
+
+
+} /* CLOSE MOBILE MEDIA QUERY */
